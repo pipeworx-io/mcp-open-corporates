@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/open-corporates",
+  "title": "Open Corporates",
+  "description": "OpenCorporates MCP — Global company registry data (free, no auth, rate limited)",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/open-corporates",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-open-corporates",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/open-corporates/mcp"
+    }
+  ]
+}
